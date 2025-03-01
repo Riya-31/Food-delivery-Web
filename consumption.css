@@ -1,0 +1,209 @@
+.con-stock-navbar {
+
+    background: #5E1E42;
+    color: #E6C29F;
+    padding: 5px 10px 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con-stock-navbar button {
+    background: white;
+    color: #5E1E42;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.con-stock-navbar button:hover {
+    background: #E6C29F;
+    color: white;
+}
+
+.con-stock-search-input {
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+.con-stock-search-icon {
+    position: absolute;
+    right: 16%;
+    color: #000000;
+    cursor: pointer;
+    top: 29px;
+}
+
+.con-stock-search-input {
+    padding: 10px;
+    border-radius: 12px;
+    margin-right: 10px;
+    margin-top: -1px;
+
+
+}
+
+
+
+
+
+/* Center the consumption container */
+.consumption-container {
+    width: 60%;
+    margin: 50px auto;
+    /* Centers it horizontally */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    /* Light shadow */
+    text-align: center;
+}
+
+/* Table styling */
+.con-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Table header */
+thead tr {
+    background-color: #5E1E42;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Input box styling */
+.con-input[type="number"] {
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Submit button styling */
+.con-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #5E1E42;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.con-button:hover {
+    background-color: #593349;
+}
+
+
+
+
+@media (max-width: 520px) {
+    .con-nav-heading {
+        font-size: 15px;
+
+    }
+
+    .consumption-container {
+        width: 91%;
+
+    }
+
+    .con-stock-search-input {
+        padding: 6px 0px 6px 5px;
+        margin-right: 23px;
+        margin-left: 0px;
+        margin-top: 10px;
+    
+    }
+
+
+
+
+    .con-stock-search-icon {
+        right: 19%;
+        top: 28px;
+    }
+
+    .con-stock-navbar button {
+        padding: 6px;
+    }
+
+    .con-table {
+        width: 93%;
+        margin: 20px 0px 0px -15px;
+    }
+
+}
+@media (max-width: 390px) {
+.con-table {
+    width: 93%;
+    margin: 20px 0px 0px -30px;
+}
+}
+
+@media (max-width: 376px) {
+    .con-stock-search-icon {
+        top: 32px;
+    }
+    th, td {
+        padding: 5px;
+    }
+    .con-button {
+        margin-top: 0px;
+        padding: 7px 18px;
+        font-size: 13px;
+    }
+
+        .con-table {
+            width: 100%;
+            margin: 20px 0px 0px -5px;
+        }
+    
+
+}
+
+
+@media (max-width: 345px) {
+    .con-nav-heading {
+        font-size: 10px;
+    }
+
+    .con-stock-search-icon {
+        top: 19px;
+    }
+
+    th,
+    td {
+        padding: 4px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    th, td {
+        padding: 4px;
+        font-size: 13px;
+    }
+    .con-button {
+        margin-top: 0px;
+        padding: 5px 15px;
+        font-size: 11px;
+    }
+
+}
